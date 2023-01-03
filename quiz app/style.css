@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(46, 171, 180);
+}
+.container{
+    position: absolute;
+    left: 33rem;
+    top: 6rem;
+}
+.container-box{
+    width: 23rem;
+    height: 20rem;
+    text-align:left;
+    border: 2px solid rgb(12, 168, 155);
+    border-radius: 12px;
+    padding: 75px;
+    background-color:#fff;
+    box-shadow: 5px 5px 10px #02484e,
+				5px 5px 10px rgba(0, 238, 242, 0.16);
+    
+    transition: 0s;
+    
+    
+}
+.container-box:hover{
+    box-shadow: -5px -5px 10px #02484e,
+				5px 5px 10px rgba(0, 238, 242, 0.16);
+    
+    
+}
+p{
+
+    font-style: italic;
+    font-weight:bold;
+    font-size: 40px;
+    margin:0;
+    position: relative;
+    left: 63px;
+    top: -282px;
+}
+
+#quiz{
+    width: 23rem;
+    height: 15rem;
+    position: relative;
+    top: 49px;
+}
+#img{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 8rem;
+}
+#started{
+    position: absolute;
+    top: 112px;
+    left: 11rem;
+}
+#question_title{
+    
+    font-size: 22px;
+    font-weight: bold;
+    width: 26rem;
+    position: absolute;
+    top: 9rem;
+    }
+
+
+
+#option_list{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    position: relative;
+    top: 88px;
+    
+}
+#submit{
+    position: absolute;
+    top: 24rem;
+    left: 12rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(18, 161, 156);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    transition: 3s box-shadow;
+    box-shadow: 0 3px #fff ;
+}
+
+#submit:hover{
+    
+		
+        background-color:rgb(18, 161, 156);
+}
+#submit:active {
+    background-color:rgb(18, 161, 156);
+    box-shadow: 0  3px #fff ;
+    transform: translateY(6px);
+}
+hr{
+    position: relative;
+    top: 66px;
+    width: 12rem;
+    height: 1px;
+    transition: 2s;
+    
+}
+hr:hover{
+    width:23rem;
+    
+    box-shadow: -5px -5px 10px #02473d,
+					5px 5px 10px rgba(0,0,0,.16);
+    
+}
+#start{
+    position: absolute;
+    top: 25rem;
+    left: 12rem;
+    height: 3rem;
+    width: 9rem;
+    background-color:rgb(18, 161, 156);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    transition: 3s box-shadow;
+    box-shadow: 0 3px #fff ;
+    
+}
+#start:hover{
+    background-color:rgb(18, 161, 156);
+
+    
+}
+#start:active {
+    background-color:rgb(18, 161, 156);
+    box-shadow: 0  3px #fff ;
+    transform: translateY(6px);
+}
+#again{
+    position: absolute;
+    top: 22rem;
+    left: 12rem;
+    height: 3rem;
+    width: 9rem;
+    background-color: rgb(18, 161, 156);;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    transition: 3s box-shadow;
+    box-shadow: 0 3px #fff ;
+}
+#again:hover{
+    background-color:rgb(18, 161, 156);
+}
+#again:active {
+    background-color:rgb(18, 161, 156);
+    box-shadow: 0  3px #fff ;
+    transform: translateY(6px);
+}
+#score-area{
+    position: absolute;
+    top: 16rem;
+    left: 8rem;
+    font-size: 50px;
+}
+@media screen and (max-width: 600px){
+    
+}
+
+
